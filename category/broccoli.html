@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>jquery.breadcrumbs-generator</title>
+<link rel="stylesheet" href="breadcrumbs.css">
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="../dist/jquery.breadcrumbs-generator.js"></script>
+<script>
+$(function() {
+  $('#breadcrumbs').breadcrumbsGenerator();
+});
+</script>
+</head>
+<body>
+    <h3>Panner</h3>
+<hr>
+<h2>--Breadcrumbs--</h2>
+<ol id="breadcrumbs"></ol>
+    <nav id="sitemaps">
+        <h2>Sitemaps</h2>
+        <ul>
+          <li>
+              <a href="../Main.html">Home</a>
+              <ul>
+                  
+                  <li>
+                      <a href="nonveg.html">Non-veg</a>
+                  </li>
+                  <li>
+                      <a href="dessert.html">Dessert</a>
+                      <ul>
+                          <li>
+                              <a href="chocolates.html">Chocolates</a>
+                          </li>
+                          <li>
+                              <a href="cakes.html">Cakes</a>
+                              <ul>
+                                  <li>
+                                      <a href="pineapplecake.html">Pineapple Cake</a>
+                                  </li>
+                                  <li>
+                                      <a href="butterscotchcake.html">Butterscotch Cake</a>
+                                  </li>
+                                  <li>
+                                      <a href="redvelvetcake.html">Red Velvet Cake</a>
+                                  </li>
+                              </ul>
+                          </li>
+                         
+                      </ul>
+                  </li>
+                  <li>
+                    <a href="vegetable.html">Vegetable</a>
+                    <ul>
+                        <li><a href="carrot.html">Carrot</a></li>
+                        <li><a href="broccoli.html">Broccoli</a></li>
+                    </ul>
+                </li>
+              </ul>
+          </li>
+        </ul>
+      </nav>
+</body>
+</html>
